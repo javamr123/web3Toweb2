@@ -6,6 +6,10 @@
 
 
 
+使用这个库，您可以无须任何区块链知识，不需要web3，直接调用接口直接实现合约调用，以及区块链等功能。
+
+
+
 由于web3.js本身有些bug，所以需要改动：
 
 web3-core-helpers-lib-formatters.js:206替换为：tx.gas = tx.gas.toString();
